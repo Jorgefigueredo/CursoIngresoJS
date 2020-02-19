@@ -1,12 +1,13 @@
 function mostrar()
 { var contador;
-	contador=1;
+	contador=0;
 	contador=parseInt(contador);
 
-	 while(contador<11)
+	 while(contador<10)
 	 {
-	 	console.log("Numero " +contador);
-	 	contador=contador+1;
+	 		 	contador=contador+1;
+	 		 	console.log("Numero " +contador);
+
 
 	 }
 

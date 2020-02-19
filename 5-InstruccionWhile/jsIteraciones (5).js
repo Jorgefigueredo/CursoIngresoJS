@@ -2,6 +2,12 @@ function mostrar()
 {
 
 var sexo = prompt("ingrese f ó m .");
+while(sexo!="f" && sexo!="m")
+{
+	console.log("letra incorrecta");
+	sexo = prompt("ingrese f ó m .");
+} 
+
 
 
 
